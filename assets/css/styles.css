@@ -21,6 +21,10 @@ body {
     background-color: honeydew;
 }
 
+#msg {
+    background-color: whitesmoke;
+}
+
 #portfolio {
     width: 100px;
 }

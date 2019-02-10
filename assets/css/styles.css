@@ -1,25 +1,32 @@
 body {
-    background-image: url("../images/backGround.png");
+    background-image: url("../images/bg3.png");
 }
 
 #name {
-    background-color: aliceblue;
-    color: orange;
+    size: 100px;
+    color: teal;
     width: 100%;
 }
 
 .links {
-    background-color: aliceblue;
-    color: orange;
+    color: teal;
     border: 5px red inset;
 }
 
 #about {
-    width: 110%;
+    width: 70px;
+}
+
+#colorMe {
+    background-color: honeydew;
 }
 
 #portfolio {
-    width: 140%;
+    width: 100px;
+}
+
+#aboutMe {
+    float: right;
 }
 
 footer {

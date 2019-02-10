@@ -18,11 +18,13 @@
     var nombre = $("#nombre").val().trim();
     var mensage = $("#mensage").val().trim();
     var email = $("#email").val().trim();
-    var personUno = nombre;
-    database.ref().set({
-        Person: nombre,
-        Message: mensage,
-        Mail: email
-    });
+
+    var Persona = {
+        Nombre : nombre,
+        Mensage : mensage,
+        EMail : email
+    };
+
+    database.ref().push(Persona);
 
   });

@@ -15,11 +15,8 @@
         <header>
             <div class="container">
                 <div class="row">
-                    <div class="col-ls-2">
-                        <h4 id="name">Armando Ochoa</h1>
-                    </div>
                     <div class="col-lg-7">
-                        <div></div>
+                        <h1 id="name">Armando Ochoa</h1>
                     </div>
                     <div class="col-lg-1">
                         <h4 class="links" id="about"><a href="index.html">About</a></h4>
@@ -34,26 +31,50 @@
             </div>
         </header>
 
-        <table class="table">
-            <tbody>
-                <div>
-                    <p>
-                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                            Link with href            
-                        </a>
-                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            Button with data-target
-                        </button>
-                    </p>
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                        </div>
+        <div class="container">
+            <h1 class="display-3 col-sm-12 mainTitle">Portfolio</h1>
+            <section id="displayArea">
+                <div class="row">
+                    <div class="col-lg-4" id="inProgress">
+                        <h5 class="alert alert-danger">In Progress</h5>
+                        <aside>                            
+                            <button class="pulse boton"><a href="https://tatael7.github.io/RPS-Multiplayer/" target="_blank">RPS Game</a></button>                           
+                            <img src="assets/images/rPS2.jpg" alt="Rock,Paper,Scisors" height="200" width="150">
+                            <div>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Summary
+                                </a>
+                                <div class="collapse" id="collapseExample">
+                                    <div class="card card-body">
+                                        A turn based rock, paper, scissors game with a Pokemon theme.
+                                        The puropouse is to implement interactive multiplayer via Firebase.
+                                        Current Working Problem: Having issues where different Pokemon are acounted for multiple 
+                                        times, apart from trouble recalling objects from Firebase.
+                                    </div>
+                                </div>        
+                            </div>                           
+                        </aside>
+                        <aside>
+                            <button class="pulse boton"><a href="https://tatael7.github.io/Fate-Coding/" target="_blank">Role Playing</a></button>
+                            <img src="assets/images/rpg.jpg" alt="RPG" height="200" width="150">
+                            <div>
+                                <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Summary
+                                </a>
+                                <div class="collapse" id="collapseExample2">
+                                    <div class="card card-body">
+                                        A turn based RPG based around the Fate series. An exponential 
+                                        growth variable is used for the Attack Power category so as to make up
+                                        for the fact that there's no healing system(with the exception of "Caster").
+                                        Current Working Problem: Setting up the actual game logic.
+                                    </div>
+                                </div>        
+                            </div>
+                        </aside>
                     </div>
                 </div>
-            </tbody>
-        </table>
-
+            </section>
+        </div>
 
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
